@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-mongo_uri = "mongodb+srv://malta:<db_password>@cluster0.3u6t1r3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongo_uri = "mongodb+srv://malta:291107ze@cluster0.3u6t1r3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongo_client = MongoClient(mongo_uri)
 
 database = mongo_client['database_test']
